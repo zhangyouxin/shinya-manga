@@ -11,6 +11,7 @@ class MainPage extends Component {
         this.onChangePage = this.onChangePage.bind(this)
     }
     componentWillMount() {
+        console.log(process.env.REACT_APP_MANGA_PATH)
         this.imgs = [1,2,3,4]
     }
     onChangePage(page, size) {
