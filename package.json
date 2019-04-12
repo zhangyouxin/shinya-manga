@@ -62,8 +62,8 @@
   },
   "scripts": {
     "start": "react-app-rewired  start",
-    "start:local": "REACT_APP_MANGA_PATH=/Users/yoxzhang/Documents/python/pic react-app-rewired  start",
-    "start:docker": "REACT_APP_MANGA_PATH=/storage/pic react-app-rewired  start",
+    "start:local": "REACT_APP_MANGA_PATH=/Users/yoxzhang/Documents/python/pic BROWSER=invalid react-app-rewired  start",
+    "start:docker": "REACT_APP_MANGA_PATH=/storage/pic BROWSER=invalid react-app-rewired  start",
     "build": "react-app-rewired  build",
     "test": "react-app-rewired  test"
   },
