@@ -4,7 +4,7 @@ const {
     Header, Footer, Sider, Content,
 } = Layout;
 
-ReactDOM.render(
+export default () => (
     <div>
         <Layout>
             <Header>Header</Header>
@@ -38,6 +38,5 @@ ReactDOM.render(
                 <Footer>Footer</Footer>
             </Layout>
         </Layout>
-    </div>,
-    mountNode
+    </div>
 );
